@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+section {
+  display: flex;
+  background-color: #f3f3f3;
+}
+
+.fb {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.tulisan-1 {
+  color: #2f55a4;
+  margin-left: 50px;
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.tulisan-2 {
+  color: #000000;
+  margin-left: 50px;
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.tulisan-3 {
+  color: #5b5a5a;
+  margin-left: 50px;
+  font-size: 28px;
+}
+
+.masuk {
+  width: fit-content;
+  display: flex;
+  gap: 25px;
+  margin: 20px 50px;
+}
+
+.masuk img {
+  width: 180px;
+  height: 200px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+}
+
+.masuk .user-1,
+.masuk .user-2,
+.masuk .user-3 {
+  position: relative;
+  height: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #c2c2c2;
+  transition: all 0.4s;
+}
+.masuk .bxs-x-circle {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 24px;
+}
+.masuk p {
+  margin: 8px 0 8px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.masuk .user-3 p {
+  color: #3b6cd7;
+}
+.masuk .user-1:hover,
+.masuk .user-2:hover,
+.masuk .user-3:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.masuk .bxs-x-circle:hover {
+  color: #f7f7f7;
+  transition: 0.4s;
+  font-size: 32px;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 10px;
+  bottom: 20px;
+}
+
+.masuk .user-3 .bxs-plus-circle {
+  position: absolute;
+  z-index: 3;
+  top: 33%;
+  left: 35%;
+  right: 0;
+  font-size: 56px;
+}
+
+.forms {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  height: 400px;
+  gap: 15px;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+input {
+  height: 70px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+input::placeholder {
+  padding: 7px;
+}
+
+input:focus {
+  padding: 7px;
+  border: #3b5998;
+}
+
+.login {
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background-color: #2f55a4;
+}
+
+form a {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px 0;
+}
+
+.new-account {
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background-color: #00cc00;
+  margin-top: 10px;
+}
